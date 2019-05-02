@@ -31,3 +31,7 @@ run:
 zip:
 	tar -czvf $(PROGRAMA).tar.gz *.h *.cpp Makefile
 ```
+## Execute on terminal
+>make
+>
+>make run args=" "
