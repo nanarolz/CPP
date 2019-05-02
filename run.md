@@ -2,8 +2,7 @@
 
 ## Create a file named Makefile and past the following code
 
-
-''' c++
+``` cpp
 PROGRAMA   = q
 COMPILADOR = g++
 ARQUIVOS   = main.cpp
@@ -31,4 +30,4 @@ run:
 
 zip:
 	tar -czvf $(PROGRAMA).tar.gz *.h *.cpp Makefile
-'''
+```
